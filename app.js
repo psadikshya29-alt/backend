@@ -12,7 +12,8 @@ const app = express();
 app.use(express.json());
 app.use(
   cors({
-    origin: "https://magenta-souffle-c12ce1.netlify.app",
+    origin:
+      "https://68b81e59faf6d300080111b5--magenta-souffle-c12ce1.netlify.app",
   })
 );
 
